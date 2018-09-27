@@ -22,5 +22,5 @@ The easiest way to contribute to this shared universe is:
 
 **File naming guidelines:** The approved file naming for mobile submissions goes like this:<br>
 
-    category_name.md
+    (categoryName)_(titleOfTheFile).md
 
