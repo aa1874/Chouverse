@@ -12,4 +12,4 @@ Chouverse is created with public domain in mind. There are many shared-universes
 This is a reusable database of things (people, species, planets, places, etc!) that appeared inside the Chouverse. You can add and modify things here.
 
 ## Contributing to this repo
-Check the [submission guide](SUBMITTING.md).
+Check the [submission guide](wiki/Submitting).
