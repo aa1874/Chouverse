@@ -6,6 +6,8 @@ note: >
 andfinally: Front matter is needed as a Markdown equivalent to wiki infoboxes.
 ---
 
+We accept only [Markdown](http://daringfireball.net/markdown/syntax) pages, files ending with .md.
+
 ### On a desktop
 
 The easiest way to contribute to this shared universe is:
@@ -16,6 +18,9 @@ The easiest way to contribute to this shared universe is:
 
 ### On a phone
 
-**GitHub is not supported on phones.** But don't worry! The initiator has made a shared folder for mobile contribution.
+**GitHub is not supported on phones.** But don't worry! The initiator has made a shared folder for mobile contribution. [Use this link if you want to contribute via mobile.](https://drive.google.com/drive/folders/1IegM3TlV_qdMHnbK2fabupRe0Oott6g5?usp=sharing)
 
-[Use this link if you want to contribute via mobile.](https://drive.google.com/drive/folders/1IegM3TlV_qdMHnbK2fabupRe0Oott6g5?usp=sharing).
+**File naming guidelines:** The approved file naming for mobile submissions goes like this:<br>
+
+    category_name.md
+
