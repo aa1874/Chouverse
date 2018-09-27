@@ -1,8 +1,8 @@
 ---
 title: Submitting Your Work
-note: >
+note: >-
     Make sure you add front matter on your pages, like this! Front matter began and end with "---" (three dashes) on a single line.
-    If you want to use multiline, make sure the first line of the variable value is ">"!
+    If you want to use multiline, make sure the first line of the variable value is ">-"!
 andfinally: Front matter is needed as a Markdown equivalent to wiki infoboxes.
 ---
 
