@@ -24,3 +24,4 @@ The easiest way to contribute to this shared universe is:
 
     (categoryName)_(titleOfTheFile).md
 
+We'll check your submissions and put it inside the repo.
