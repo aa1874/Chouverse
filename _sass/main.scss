@@ -1,0 +1,10 @@
+// custom vars and css
+$enable-rounded: false;
+$enable-shadows: true;
+$enable-gradients: true;
+
+body {
+    padding-top: 10px;
+}
+
+@import "bootstrap/bootstrap";
