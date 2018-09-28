@@ -6,7 +6,7 @@ layout: main
 <a href="http://github.com/aa1874/chouverse"><button class="btn btn-primary btn-lg">Browse the database!</button></a>
 <hr>
 
-# Philosophy
+## Philosophy
 The main driving force for this project is **public domain.**
 
 There are many shared universes in this world. Many of them are under copyright... Chouverse is made so that people can contribute into a shared universe without even asking permission.
