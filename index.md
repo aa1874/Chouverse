@@ -2,6 +2,7 @@
 layout: main
 ---
 
+<p><small>PRE-PRE-ALPHA VERSION</small></p>
 <p class="lead">Open source shared universe by <a href="http://aa1874.netlify.com">AA1874</a></p>
 <!--<a href="http://github.com/aa1874/chouverse"><button class="btn btn-primary btn-lg">Browse the database!</button></a>-->
 <hr>
@@ -28,4 +29,4 @@ In some areas, there might be wars and invasions.
 
 <a name="how"></a>
 
-## How
+## How do I collaborate?
