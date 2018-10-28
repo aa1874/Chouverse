@@ -22,7 +22,7 @@ There are many shared universes in this world. Many of them are under copyright.
 #### General
 The Chouverse is beyond just one universe: it's a multiverse. A collection of universes. Timelines. Too many civilizations. Some went postorganic (aka: went into singularity). Most haven't or don't want to yet.
 
-Some of those civilizations are AGI (artificial general intelligence) civilizations, or civilizations led by AGIs--known as AI nations--some off them being led by benevolent AGIs, others are malevolent.
+Some of those civilizations are AGI ([artificial general intelligence](http://en.wikipedia.org/wiki/Artificial_general_intelligence)) civilizations, or civilizations led by AGIs--known as AI nations--some of them being led by benevolent AGIs, others are malevolent.
 
 In some areas, there might be wars and invasions. 
 
