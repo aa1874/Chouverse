@@ -10,6 +10,3 @@ Chouverse is created with public domain in mind. There are many shared-universes
 ## What's this repo contain?
 
 This is a reusable database of things (people, species, planets, places, etc!) that appeared inside the Chouverse. You can add and modify things here.
-
-## Contributing to this repo
-Check the [submission guide](http://github.com/aa1874/chouverse/wiki/Submitting).
