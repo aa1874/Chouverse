@@ -19,11 +19,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-collection_dir: docs # Group all wiki posts including blogposts in a single docs folder
+# collection_dir: docs # Group all wiki posts including blogposts in a single docs folder
 collections:
   worlds: # Exterran worlds
     output: true
-  people: # Civilizations, races etc
+  people: # Dramatis Personae
+    output: true
+  species: # Lists of species in the Chouverse
     output: true
   terra: # Terran Council Socialist Republic
     output: true
