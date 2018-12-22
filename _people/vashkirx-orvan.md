@@ -1,6 +1,6 @@
 ---
 name: Orvan
-occupation: 
+occupation: ???
 species: Vashkirx
 appearance: "A Transsparent Plot"
 ---
