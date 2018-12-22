@@ -4,18 +4,26 @@ title: People
 list_title: Chouverse dramatis personae
 list_desc: A list of people in Chouverse stories.
 ---
-
-{%- if site.people.size > 0 -%}
-    <h1 class="display-4">{{ page.list_title | default: page.title }}</h1>
-    <p class="lead">{{ page.list_desc }}</p>
-    {%- for person in site.people -%}
-        <h3>{{ person.name | escape }}{%- if person.occupation -%}<i><small class="text-muted">&mdash;{{ person.occupation }}</small></i>{%- endif -%}</h3>
-        <p>
-            <b>Appears in: </b> {{ person.appearance }}<br>
-            <b>Species: </b> {{ person.species }}
-        </p>
-        {%- if person.headline -%}
-            <p>{{ person.headline }}</p>
-        {%- endif -%}
-    {%- endfor -%}
-{%- endif -%}
+<h1 class="display-4">{{ page.list_title | default: page.title }}</h1>
+<p class="lead">{{ page.list_desc }}</p>
+<div class="row">
+    {%- if site.people.size > 0 -%}
+        <div class="col-md-6 col-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    {%- for person in site.people -%}
+                        <h3 class="card-title">{{ person.name | escape }}</h3>
+                        {%- if person.occupation -%}<h6 class="card-subtitle mb-2 text-muted">&mdash;{{ person.occupation }}</h6>{%- endif -%}
+                        <p class="card-text">
+                            <b>Appears in: </b> {{ person.appearance }}<br>
+                            <b>Species: </b> {{ person.species }}
+                        </p>
+                        {%- if person.headline -%}
+                            <p class="card-text">{{ person.headline }}</p>
+                        {%- endif -%}
+                    {%- endfor -%}
+                </div>
+            </div>
+        </div>
+    {%- endif -%}
+</div>
