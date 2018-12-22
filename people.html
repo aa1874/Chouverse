@@ -1,7 +1,7 @@
 ---
 layout: main
 title: People
-list_title: Chouverse Dramatis personae
+list_title: Chouverse dramatis personae
 list_desc: A list of people in Chouverse stories.
 ---
 
@@ -9,7 +9,7 @@ list_desc: A list of people in Chouverse stories.
     <h1 class="display-4">{{ page.list_title | default: page.title }}</h1>
     <p class="lead">{{ page.list_desc }}</p>
     {%- for person in site.people -%}
-        <h3>{{ person.name | escape }}{%- if person.occupation -%}, <small class="text-muted">{{ person.occupation }}</small>{%- endif -%}</h3>
+        <h3>{{ person.name | escape }}{%- if person.occupation -%}<small class="text-muted">&mdash;{{ person.occupation }}</small>{%- endif -%}</h3>
         <p>
             <b>Appears in: </b> {{ person.appearance }}<br>
             <b>Species: </b> {{ person.species }}
