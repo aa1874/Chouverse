@@ -9,21 +9,23 @@ list_desc: A list of people in Chouverse stories.
 <div class="row">
     {%- if site.people.size > 0 -%}
         <div class="col-md-4 col-sm-12">
+            {%- for person in site.people -%}
             <div class="card">
                 <div class="card-body">
-                    {%- for person in site.people -%}
-                        <h3 class="card-title">{{ person.name | escape }}</h3>
-                        {%- if person.occupation -%}<h6 class="card-subtitle mb-2 text-muted">&mdash;{{ person.occupation }}</h6>{%- endif -%}
-                        <p class="card-text">
-                            <b>Appears in: </b> {{ person.appearance }}<br>
-                            <b>Species: </b> {{ person.species }}
-                        </p>
-                        {%- if person.headline -%}
-                            <p class="card-text">{{ person.headline }}</p>
-                        {%- endif -%}
-                    {%- endfor -%}
+                    <h3 class="card-title">{{ person.name | escape }}</h3>
+                    {%- if person.occupation -%}
+                        <h6 class="card-subtitle mb-2 text-muted">&mdash;{{ person.occupation }}</h6>
+                    {%- endif -%}
+                    <p class="card-text">
+                        <b>Appears in: </b> {{ person.appearance }}<br>
+                        <b>Species: </b> {{ person.species }}
+                    </p>
+                    {%- if person.headline -%}
+                        <p class="card-text">{{ person.headline }}</p>
+                    {%- endif -%}
                 </div>
             </div>
+            {%- endfor -%}
         </div>
     {%- endif -%}
 </div>
