@@ -7,6 +7,8 @@ layout: main
 <!--<a href="http://github.com/aa1874/chouverse"><button class="btn btn-primary btn-lg">Browse the database!</button></a>-->
 <hr>
 
+<div class="alert alert-primary">A <a class="alert-link" href="/people.html">dramatis personae</a> has just been put online!</div>
+
 [What is Chouverse?](#what) - [How do I collaborate?](#how)
 
 <a name="what"></a>
