@@ -20,7 +20,7 @@ The main driving force for this project is **public domain.**
 
 There are many shared universes in this world. Many of them are under copyright... Which is the reason why I made Chouverse: so that people can contribute into a shared universe without even asking permission.
 
-### Inside
+### Planned things inside
 
 #### General
 The Chouverse is beyond just one universe: it's a multiverse. A collection of universes. Timelines. Too many civilizations. Some went postorganic (aka: went into singularity). Most haven't or don't want to yet.
